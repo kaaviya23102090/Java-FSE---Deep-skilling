@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cognizant</groupId>
-    <artifactId>spring4.1learn</artifactId>
+    <artifactId>spring4.2learn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>EX-1_Logging_using_REST</name>
     <description>EX-1_Logging_using_REST</description>
