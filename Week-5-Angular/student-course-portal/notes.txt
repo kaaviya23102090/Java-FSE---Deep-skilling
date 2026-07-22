@@ -1,0 +1,16 @@
+1.angular.json:
+   -->angular.json configures how Angular builds, serves, and manages the application.
+2.tsconfig.json
+   --> tsconfig.json contains the global TypeScript compiler settings for the project.
+3.tsconfig.app.json
+  --> tsconfig.app.json extends tsconfig.json and contains compiler settings specific to the Angular app.
+4.package.json
+  -->package.json stores project information, dependencies, and npm scripts.
+5.src/main.ts
+  -->main.ts is the entry point that starts and bootstraps the Angular application.
+6.app.config.ts
+  -->app.config.ts contains the application's global configuration and registered providers.
+7.app.component.ts
+   -->app.component.ts defines the root component that acts as the starting point of the application's UI.
+8.index.html
+    -->index.html is the main HTML page where the Angular application is loaded.
