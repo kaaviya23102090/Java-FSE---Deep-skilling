@@ -1,4 +1,12 @@
-<h1>Welcome to Student Course Portal</h1>
+<!--
+[property] is One-Way Binding.
+It sends data from the component (TypeScript) to the DOM (HTML).
+
+[(ngModel)] is Two-Way Binding.
+It keeps the component property and the input field synchronized.
+Changes in the component update the input, and user input updates the component.
+-->
+<h1>{{portalName}}</h1>
 <p>
   Learn and manage your courses efficiently
 </p>
@@ -7,3 +15,10 @@
 <p>Courses Available:12</p>
 <p>Enrolled :3</p>
 <p>GPA: 3.8</p>
+<button (click)="onEnrollClick()">
+  Enroll now
+</button>
+<input [(ngModel)]="searchTerm" placeholder="Search course">
+
+<p>{{ message }}</p>
+<P>Searching for :{{searchTerm}}</P>
